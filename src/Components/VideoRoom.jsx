@@ -6,8 +6,8 @@ export default function VideoRoom() {
    const{roomID}= useParams()
 
  const myMeeting = async(element)=>{
-    const appID = 612205247;
-    const serverSecret = "d19341fcf3d52f566299701fc5525780";
+    const appID = 612205221;
+    const serverSecret = "d19341fcf3d52f566299701fc55234";
     const kitToken =ZegoUIKitPrebuilt.generateKitTokenForTest(appID,serverSecret, roomID, Date.now().toString(),"UserName" )
       // Create instance object from Kit Token.
       const zp = ZegoUIKitPrebuilt.create(kitToken);
