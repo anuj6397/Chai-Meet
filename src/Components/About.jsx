@@ -92,7 +92,7 @@ export default function About() {
           <div
             className="box" >
             <p><a href="tel:+6397547740"><IoIosCall style={{ fontSize: '5rem', color: 'green' }} /></a></p>
-            <p className='contact-text ' style={{ marginTop: '1.5rem', }}><span style={{ color: 'black', fontSize: '1rem' }}>India: </span><br /><a href="tel:+6397547740" style={{ fontSize: '1rem', marginTop: '2rem' }}>+91 6397547740</a></p>
+            <p className='contact-text ' style={{ marginTop: '1.5rem', }}><span style={{ color: 'black', fontSize: '1rem' }}>India: </span><br /><a href="tel:+6397547740" style={{ fontSize: '1rem', marginTop: '2rem' }}>+91 0000000000</a></p>
           </div>
         </div>
       </div>
